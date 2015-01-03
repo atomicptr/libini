@@ -1,19 +1,18 @@
 # libini
 
-Very simple INI parser
+Simple header-only .ini parser writte in C++
 
 ## Usage
 
-Your .ini file:
+Put the libini.hpp file somewhere into your project, include it and get started:
 
-    [Category]
-    Key=Value
 
-Your .cpp file:
+    #include "path/to/libini.hpp"
 
-    auto ini = libini::parse(content_as_str);
+    auto ini = libini::parse("[Category]\nKey=Value");
 
-    auto val = ini.get("Category", "Key");
+    auto val = ini["Category"]["Key"];
+
 
 ## License
 
