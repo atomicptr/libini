@@ -1,6 +1,6 @@
 # libini
 
-Simple header-only .ini parser writte in C++
+Simple header-only .ini parser written in C++
 
 ## Usage
 
