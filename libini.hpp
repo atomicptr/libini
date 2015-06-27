@@ -21,6 +21,7 @@
 #ifndef __LIBINI_HPP__
 #define __LIBINI_HPP__
 
+#include <algorithm>
 #include <iostream>
 #include <map>
 #include <sstream>
